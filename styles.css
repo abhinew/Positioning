@@ -1,0 +1,30 @@
+
+.section {
+    float: left;
+
+}
+
+.sidebar {
+    width: 30%;
+}
+
+.main-content {
+    width: 70%;
+}
+
+h2 {
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.catalogue {
+    position: absolute;
+    bottom: 0;
+    top: 20px;
+}
+body:after {
+    content: '';
+    clear: both;
+    display: block;
+}
